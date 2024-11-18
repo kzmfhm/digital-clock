@@ -1,0 +1,39 @@
+
+
+.clock-container {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+    background-color: #282c34;
+    color: #61dafb;
+    font-family: 'Arial', sans-serif;
+    padding:2rem
+  }
+  
+  .clock {
+    font-size: 3rem;
+    padding: 2rem;
+    border: 2px solid #61dafb;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #1c1f25;
+  }
+  
+  @media (max-width: 768px) {
+    .clock {
+      font-size: 2rem; 
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .clock {
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+  }
+  
