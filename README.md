@@ -2,6 +2,6 @@
 
 <div align="center">
 
-![My Digital Clock Image](/clock.webp)
+![My Digital Clock Image](src/assets/clock.webp)
 
 </div>
